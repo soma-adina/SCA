@@ -9,7 +9,7 @@ import { FaFacebook} from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className=''>
+    <div >
       {/* before footer */} 
       <BeforeFooter/>
 
@@ -19,9 +19,7 @@ export default function Footer() {
       {/* after footer */}
 
       <AfterFooter/>
-      
-        <FaFacebook className='text-white'/>
-        Footer
+
     </div>
   )
 }
