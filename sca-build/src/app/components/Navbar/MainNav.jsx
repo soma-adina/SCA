@@ -1,7 +1,74 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
+import { IoCloudCircle } from "react-icons/io5";
+import { MdKeyboardArrowDown,MdKeyboardArrowUp } from "react-icons/md";
+import { GiJusticeStar } from "react-icons/gi";
+import { BiSolidMessageDetail } from "react-icons/bi";
+import { BsNintendoSwitch } from "react-icons/bs";
+import { IoMdCloseCircleOutline } from "react-icons/io";
+import { MdGames } from "react-icons/md";
 
 export default function MainNav() {
+  const[isOpen, setIsOpen]=useState(null);
+  const dropDown=(i)=>{
+    if (isOpen === i){
+      return setIsOpen(null)
+    }
+
+    setIsOpen(i)
+
+  }
+
+  const data=[
+    {
+      title:"My Nintendo Store",
+      content:"lorem is a great first generator",
+      navIcon: <IoCloudCircle/>
+    },
+    {
+      title:"Games ",
+      content:"lorem is a great second generator",
+      navIcon: <MdGames/>
+    },
+    {
+      title:"Nintendo Switch",
+      content:"lorem is a great third generator",
+      navIcon: <BsNintendoSwitch/>,
+    },
+    {
+      title:"News & Events",
+      content:"lorem is a great third generator",
+      navIcon: <BiSolidMessageDetail/>,
+    },
+    {
+      title:"Play Nintendo",
+      content:"lorem is a great third generator",
+      navIcon: <GiJusticeStar/>,
+    },
+  ]
   return (
-    <div>MainNav</div>
+    <div className='w-full py-4 border-b border-solid border-gray-300 bg-white relative'>
+    <nav className=''>
+    
+      <ul className='flex items-center justify-center gap-4'>
+      {data.map((item,i)=>(
+      <li>
+        <a href="#" className='text-tertiary font-bold flex items-center gap-1 hover:text-primary' onClick={()=>dropDown(i)}>
+            <span className='text-xl'>{item.navIcon}</span>{item.title} <span>{isOpen===i?(<MdKeyboardArrowUp />):(<MdKeyboardArrowDown />)}</span>
+        </a>
+
+        {/* dropdown */}
+        <div className={isOpen===i?'absolute min-h-10 w-full bg-slate-500 top-full left-0':'hidden'}>
+          <p className="text-white">
+            {item.content}
+          </p>
+          <span className="cursor-pointer" onClick={()=>{setIsOpen(null)}}><IoMdCloseCircleOutline /></span>
+        </div>
+      </li>
+      ))}
+      </ul>
+    
+    </nav>
+    </div>
   )
 }
