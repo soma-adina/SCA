@@ -11,6 +11,7 @@ module.exports = {
       "primary":"#e60012",
       "secondary": "#ac000d",
       "tertiary":"#484848",
+      "temp":"rgb(214, 240, 250)",
 
      }
     },

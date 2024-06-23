@@ -47,13 +47,13 @@ export default function MainNav() {
     },
   ]
   return (
-    <div className='w-full py-4 border-b border-solid border-gray-300 bg-white relative'>
-    <nav className=''>
+    <div className='hidden lg:block w-full py-4 border-b border-solid border-gray-300 bg-white relative'>
+    <nav className='container mx-auto'>
     
       <ul className='flex items-center justify-center gap-4'>
       {data.map((item,i)=>(
       <li>
-        <a href="#" className='text-tertiary font-bold flex items-center gap-1 hover:text-primary' onClick={()=>dropDown(i)}>
+        <a href="#" className='text-tertiary text-sm font-bold flex items-center gap-1 focus:text-primary  hover:text-primary' onClick={()=>dropDown(i)}>
             <span className='text-xl'>{item.navIcon}</span>{item.title} <span>{isOpen===i?(<MdKeyboardArrowUp />):(<MdKeyboardArrowDown />)}</span>
         </a>
 
@@ -65,7 +65,12 @@ export default function MainNav() {
           <span className="cursor-pointer" onClick={()=>{setIsOpen(null)}}><IoMdCloseCircleOutline /></span>
         </div>
       </li>
+        
+        // ////////////////////////////////////////////
+        
+        // //////////////////////////////////////////
       ))}
+      <li>OK</li>
       </ul>
     
     </nav>

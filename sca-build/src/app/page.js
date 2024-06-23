@@ -3,13 +3,10 @@ import React, { useState } from 'react'
 
 // icons
 
-import { IoCloudCircle } from "react-icons/io5";
-import { MdKeyboardArrowDown,MdKeyboardArrowUp } from "react-icons/md";
-import { GiJusticeStar } from "react-icons/gi";
-import { BiSolidMessageDetail } from "react-icons/bi";
-import { BsNintendoSwitch } from "react-icons/bs";
+
 import { IoMdCloseCircleOutline } from "react-icons/io";
-import { MdGames } from "react-icons/md";
+import SectionOne from './components/Home/SectionOne';
+
 
 export default function Home() {
   const[isOpen, setIsOpen]=useState(null);
@@ -38,7 +35,9 @@ export default function Home() {
   ]
   return (
     <>
-    <div className='container mx-auto bg-red-300'>
+    <SectionOne/>
+
+    <div className='container mx-auto bg-red-300 my-12'>
       <h2 className='text-primary font-bold text-3xl'>Nintendo Home</h2>
     </div>
     <div className='container mx-auto'>
