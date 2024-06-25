@@ -14,6 +14,7 @@ import { BsFillQuestionSquareFill } from "react-icons/bs";
 import { IoCloudCircle } from "react-icons/io5";
 
 import NavbarForm from './NavbarForm';
+import SignUpSideBar from './SignUpSideBar';
 
 export default function TopNav() {
   return (
@@ -67,10 +68,12 @@ export default function TopNav() {
                     </a>
                 </li>
                 <li>
-                    <a href="#" className='flex items-center text-sm font-semibold hover:text-primary gap-2'>
+                    <a href="#" className='flex relative items-center text-sm font-semibold hover:text-primary gap-2'>
                         <span className='text-lg'><FaUserAlt /></span> 
                             Sign Up / Log in
                     </a>
+                    {/* sign up side bar */}
+                    <SignUpSideBar/>
                 </li>
                 <li>
                     <a href="#">
