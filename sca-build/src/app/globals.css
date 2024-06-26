@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.sidebar{
+    animation: slide 400ms ease-in-out;
+}
+@keyframes slide {
+    from{
+        right: -100%;
+    }
+    to{right: 0;}
+    
+}

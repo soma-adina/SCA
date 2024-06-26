@@ -7,7 +7,7 @@ import flag from "../logo/US-flag.png"
 // icon
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-import { FaUserAlt } from "react-icons/fa";
+
 
 // icons
 import { BsFillQuestionSquareFill } from "react-icons/bs";
@@ -67,14 +67,7 @@ export default function TopNav() {
                             Cart
                     </a>
                 </li>
-                <li>
-                    <a href="#" className='flex relative items-center text-sm font-semibold hover:text-primary gap-2'>
-                        <span className='text-lg'><FaUserAlt /></span> 
-                            Sign Up / Log in
-                    </a>
-                    {/* sign up side bar */}
-                    <SignUpSideBar/>
-                </li>
+                <SignUpSideBar/>
                 <li>
                     <a href="#">
                         <Image className='rounded' src={flag} width={28}/>
