@@ -11,6 +11,12 @@ import 'swiper/css/thumbs';
 
 // images
 import banner from '../logo/strawdew.png'
+import banner2 from '../img/banner2.avif'
+import banner3 from '../img/banner3.avif'
+import banner4 from '../img/banner4.avif'
+import banner5 from '../img/banner5.avif'
+import banner6 from '../img/banner6.avif'
+import hero from '../img/hero.avif'
 
 
 // import required modules
@@ -36,22 +42,25 @@ export default function Swip() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image className='' src={banner}/>
+          <Image className='' src={hero}/>
         </SwiperSlide>
         <SwiperSlide>
         <Image src={banner}/>
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={banner}/>
+        <Image src={banner2}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner3}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner4}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner5}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={banner6}/>
         </SwiperSlide>
         
         
@@ -67,22 +76,25 @@ export default function Swip() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={hero}/>
         </SwiperSlide>
         <SwiperSlide>
           <Image src={banner}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner2}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner3}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner4}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image src={banner5}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={banner6}/>
         </SwiperSlide>
         
       </Swiper>

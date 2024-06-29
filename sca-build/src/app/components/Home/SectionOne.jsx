@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 
 // images
-import bannerImg from '../logo/strawdew.png'
 import GoldCoin from '../img/gold-coin.avif'
+import certify from '../logo/certify.svg'
 
 // icons
 import { MdKeyboardArrowRight } from "react-icons/md";
@@ -14,7 +14,9 @@ import Swip from './Swip';
 export default function SectionOne() {
   return (
     <section className='bg-temp relative'>
-      <div className="w-11/12 relative bg-white mx-auto py-5 px-10 translate-y-8 rounded-xl shadow-2xl">
+      <div className="lg:w-11/12 w-full relative bg-white mx-auto py-5 px-10 lg:translate-y-8 lg:rounded-xl shadow-lg">
+
+      {/* hero navigation */}
         <div className='py-4'>
           <ul className='flex items-center gap-2'>
             <li className='text-tertiary text-xs font-medium cursor-pointer'>Store</li>
@@ -24,11 +26,26 @@ export default function SectionOne() {
             <li className='text-tertiary text-xs font-medium cursor-pointer'>Strawdew Valley</li>
           </ul>
         </div>
-        <div className='flex'>
-          <div className="w-3/5 rounded-lg">
-            <Swip/>
+        <div className='flex flex-wrap'>
+          <div className="md:w-3/5 w-full">
+            <div className="w-full rounded-lg">
+              <Swip/>
+              <div className='lg:w-3/5 md:w-full md:flex items-center hidden'>
+                <div className='w-2/12'>
+                  <Image
+                    className='w-full'
+                    src={certify}
+                  />
+                </div>
+                <div className='p-2 text-tertiary text-xs  divide-y divide-solid divide-tertiary'>
+                  <p className='py-2 '>Fantasy Violenc, Use of Alcohol, Use of Tabacco, Simulated Gambling, Mild Language and Mild Blood.</p>
+                  <p className='py-2'>Users Interact</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='w-2/5 px-8'>
+          
+          <div className='md:w-2/5 md:px-8 my-4 md:my-0 w-full'>
             <div className='border-l-2 border-primary px-3 mb-5'>
               <h5 className='text-sm'>
                 Nintendo Switch 
