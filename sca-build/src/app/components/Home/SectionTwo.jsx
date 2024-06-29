@@ -10,7 +10,7 @@ import { FaPlus } from "react-icons/fa";
 export default function SectionTwo() {
   return (
     <section>
-        <div className="w-11/12 relative bg-white mx-auto my-12 py-5 md:px-10 flex flex-wrap justify-between">
+        <div className="lg:w-11/12 w-full relative bg-white mx-auto my-12 py-5 px-10 flex flex-wrap justify-between">
             <div className="md:w-3/6 w-full">
                 <h4 className='text-tertiary text-xl font-semibold py-2'>You're moving to the valley...</h4>
                 <p className='text-tertiary leading-7'>

@@ -8,6 +8,7 @@ import { IoMdCloseCircleOutline } from "react-icons/io";
 import SectionOne from './components/Home/SectionOne';
 import Swip from './components/Home/Swip';
 import SectionTwo from './components/Home/SectionTwo';
+import SectionThree from './components/Home/SectionThree';
 
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
     <>
     <SectionOne/>
     <SectionTwo/>
+    <SectionThree/>
 
     <div className='container mx-auto bg-red-300 my-12'>
       <h2 className='text-primary font-bold text-3xl'>Nintendo Home</h2>
