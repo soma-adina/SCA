@@ -11,6 +11,8 @@ import SectionTwo from './components/Home/SectionTwo';
 import SectionThree from './components/Home/SectionThree';
 import SectionFour from './components/Home/SectionFour';
 import SectionFive from './components/Home/SectionFive';
+import SectionSix from './components/Home/SectionSix';
+import SectionSeven from './components/Home/SectionSeven';
 
 
 export default function Home() {
@@ -43,8 +45,10 @@ export default function Home() {
     <SectionOne/>
     <SectionTwo/>
     <SectionThree/>
-    <SectionFour/>
+    {/* <SectionFour/> */}
     <SectionFive/>
+    {/* <SectionSix/> */}
+    <SectionSeven/>
 
     <div className='container mx-auto bg-red-300 my-12'>
       <h2 className='text-primary font-bold text-3xl'>Nintendo Home</h2>
