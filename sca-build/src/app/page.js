@@ -13,6 +13,7 @@ import SectionFour from './components/Home/SectionFour';
 import SectionFive from './components/Home/SectionFive';
 import SectionSix from './components/Home/SectionSix';
 import SectionSeven from './components/Home/SectionSeven';
+import CardSwip from './components/Home/CardSwip';
 
 
 export default function Home() {
@@ -48,11 +49,11 @@ export default function Home() {
     {/* <SectionFour/> */}
     <SectionFive/>
     {/* <SectionSix/> */}
+    <CardSwip/>
     <SectionSeven/>
+    
 
-    <div className='container mx-auto bg-red-300 my-12'>
-      <h2 className='text-primary font-bold text-3xl'>Nintendo Home</h2>
-    </div>
+    
     <div className='container mx-auto'>
       {data.map((item,i)=>(
         <div className='w-1/2 bg-blue-200 my-4 p-5 ' >

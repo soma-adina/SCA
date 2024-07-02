@@ -58,17 +58,18 @@
 }
 
 .mySwiper {
-  height: 15%;
+  height: auto;
   box-sizing: border-box;
   padding: 10px 0;
   margin:1rem 0;
+  position: relative;
 
 }
 
 .mySwiper .swiper-slide {
   width: 16.67%;
   height: 100%;
-  opacity: 0.6;
+  opacity: 1;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -81,7 +82,7 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 90%;
+  height: 100%;
   object-fit: cover;
 }
 
