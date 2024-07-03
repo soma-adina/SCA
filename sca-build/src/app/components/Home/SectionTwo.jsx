@@ -5,7 +5,8 @@ import Image from 'next/image'
 import hero from '../img/hero.avif'
 
 // icons
-import { FaPlus } from "react-icons/fa";
+
+import ReadMore from './ReadMore';
 
 export default function SectionTwo() {
   return (
@@ -13,17 +14,26 @@ export default function SectionTwo() {
         <div className="lg:w-11/12 w-full relative bg-white mx-auto my-12 py-5 px-10 flex flex-wrap justify-between">
             <div className="md:w-3/6 w-full">
                 <h4 className='text-tertiary text-xl font-semibold py-2'>You're moving to the valley...</h4>
-                <p className='text-tertiary leading-7'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
-                    cum voluptatum exercitationem at rerum dolorum 
-                    a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
-                    cum voluptatum exercitationem at rerum dolorum 
-                    a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
-                </p>
-                <button className='flex items-center gap-1 text-primary font-semibold hover:text-secondary my-4'>
-                <FaPlus/> Read More
-                </button>
+                <div>
+                  <ReadMore >
+                    
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
+                        cum voluptatum exercitationem at rerum dolorum 
+                        a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
+                        cum voluptatum exercitationem at rerum dolorum 
+                        a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
+                        cum voluptatum exercitationem at rerum dolorum 
+                        a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore praesentium, 
+                        cum voluptatum exercitationem at rerum dolorum 
+                        a voluptates vitae, amet aut molestiae consequatur fugiat. Dolorum eum vitae quisquam vero.
+                    
+                    
+                  </ReadMore>
+                </div>
+                
                 <p className='text-xs'>
                 Software description provided by the publisher.
                 </p>

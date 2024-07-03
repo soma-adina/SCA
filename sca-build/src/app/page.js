@@ -54,7 +54,7 @@ export default function Home() {
     
 
     
-    <div className='container mx-auto'>
+    {/* <div className='container mx-auto'>
       {data.map((item,i)=>(
         <div className='w-1/2 bg-blue-200 my-4 p-5 ' >
           <h2 className='font-bold cursor-pointer' onClick={()=>dropDown(i)}>{item.title}</h2>
@@ -65,7 +65,7 @@ export default function Home() {
           </p>
         </div>
       ))}
-    </div>
+    </div> */}
     
     
     </>
