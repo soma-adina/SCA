@@ -42,7 +42,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col flex-nowrap gap-3 border border-solid relative  border-gray-200 '>
               <div className='relative transition hover:-translate-y-8 z-10'>
-                <Image className='w-full relative ' src={Card1}/>
+                <Image alt='' className='w-full relative ' src={Card1}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>My Portia Game</h3>
@@ -62,7 +62,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card2}/>
+                <Image alt='' className='w-full relative ' src={Card2}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>Portion Permit</h3>
@@ -82,7 +82,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card3}/>
+                <Image alt='' className='w-full relative ' src={Card3}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>Ooblet</h3>
@@ -102,7 +102,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card4}/>
+                <Image alt='' className='w-full relative ' src={Card4}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>Bear and Breakfast</h3>
@@ -122,7 +122,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card5}/>
+                <Image alt='' className='w-full relative ' src={Card5}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>Wytchwood</h3>
@@ -142,7 +142,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card6}/>
+                <Image alt='' className='w-full relative ' src={Card6}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>Fae Farm</h3>
@@ -162,7 +162,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card1}/>
+                <Image alt='' className='w-full relative ' src={Card1}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>My Portia Game</h3>
@@ -182,7 +182,7 @@ export default function CardSwip() {
         <SwiperSlide>
             <div className='flex flex-col gap-3 border border-solid relative  border-gray-200 rounded-md overflow-hidden'>
               <div className='relative transition hover:-translate-y-8 z-100'>
-                <Image className='w-full relative ' src={Card1}/>
+                <Image alt='' className='w-full relative ' src={Card1}/>
               </div>
               <div className='py-4 px-4 text-left'>
                 <h3 className='text-tertiary hover:text-primary font-semibold '>My Portia Game</h3>

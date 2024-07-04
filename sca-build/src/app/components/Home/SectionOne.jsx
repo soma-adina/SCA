@@ -35,6 +35,7 @@ export default function SectionOne() {
                   <Image
                     className='w-full'
                     src={certify}
+                    alt=''
                   />
                 </div>
                 <div className='p-2 text-tertiary text-xs  divide-y divide-solid divide-tertiary'>
@@ -70,6 +71,7 @@ export default function SectionOne() {
               <Image
                 className='w-5'
                 src={GoldCoin}
+                alt=''
               />
               <p className='text-tertiary text-xs'>
               Eligible for up to <b>75</b> Gold Points

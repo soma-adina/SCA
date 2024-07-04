@@ -20,7 +20,7 @@ export default function AfterFooter() {
             <a href="#" className='text-xs font-medium hover:underline decoration-secondary decoration-2 underline-offset-4'>Documents & policies</a>
           </div>
           <div className="flex items-center justify-end gap-x-3 py-5 md:py-3">
-            <Image src={USLogo} width={25} className='rounded-s'/>
+            <Image alt='' src={USLogo} width={25} className='rounded-s'/>
             <a href="#" className='text-xs font-medium hover:underline decoration-white decoration-2 underline-offset-4'>
               English (United States)</a>
           </div>

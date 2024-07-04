@@ -44,8 +44,10 @@ export default function SectionTwo() {
 
             <div className="md:w-3/6 w-full md:px-5 px-0">
                 <Image
+                alt=''
                     className="w-full rounded-xl"
                     src={hero}/>
+                    
             </div>
             
         </div>

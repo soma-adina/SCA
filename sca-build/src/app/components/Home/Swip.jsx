@@ -42,25 +42,25 @@ export default function Swip() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image className='' src={hero}/>
+          <Image alt='' className='' src={hero}/>
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={banner}/>
+        <Image alt='' src={banner}/>
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={banner2}/>
+        <Image alt='' src={banner2}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner3}/>
+          <Image alt='' src={banner3}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner4}/>
+          <Image alt='' src={banner4}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner5}/>
+          <Image alt='' src={banner5}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner6}/>
+          <Image alt='' src={banner6}/>
         </SwiperSlide>
         
         
@@ -76,25 +76,25 @@ export default function Swip() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={hero}/>
+          <Image alt='' src={hero}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner}/>
+          <Image alt='' src={banner}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner2}/>
+          <Image alt='' src={banner2}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner3}/>
+          <Image alt='' src={banner3}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner4}/>
+          <Image alt='' src={banner4}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner5}/>
+          <Image alt='' src={banner5}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner6}/>
+          <Image alt='' src={banner6}/>
         </SwiperSlide>
         
       </Swiper>

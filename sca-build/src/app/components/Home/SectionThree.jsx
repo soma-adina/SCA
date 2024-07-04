@@ -19,6 +19,7 @@ export default function SectionThree() {
                 <div className='w-full flex items-center bg-white px-5 py-3 rounded-xl shadow-md'>
                     <div className='w-2/12'>
                         <Image
+                            alt=''
                             className='w-full'
                             src={certify}
                         />

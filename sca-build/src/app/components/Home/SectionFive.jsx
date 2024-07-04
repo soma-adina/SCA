@@ -38,6 +38,7 @@ export default function SectionFive() {
             {/* second container with image */}
             <div className="md:w-1/2 md:block hidden self-end">
                 <Image
+                alt=''
                 className='w-full'
                     src={HandController}
                 />
