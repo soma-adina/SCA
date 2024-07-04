@@ -55,7 +55,7 @@ export default function MainNav() {
     <nav className='container mx-auto'>
     
       <ul className='flex items-center justify-center gap-4'>
-      {data.map((item)=>(
+      {data.map((item,i)=>(
       <li key={item.id}>
         <a href="#" className='text-tertiary text-sm font-bold flex items-center gap-1 focus:text-primary  hover:text-primary' onClick={()=>dropDown(i)}>
             <span className='text-xl'>{item.navIcon}</span>{item.title} <span>{isOpen===i?(<MdKeyboardArrowUp />):(<MdKeyboardArrowDown />)}</span>
