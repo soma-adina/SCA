@@ -29,7 +29,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 export default function CardSwip() {
   return (
-    <div className="lg:w-11/12 w-full relative  mx-auto my-12 py-5 flex flex-wrap justify-between">
+    <div className="lg:w-11/12 w-full relative  mx-auto my-12 py-5 px-4 flex flex-wrap justify-between">
       <h4 className='text-3xl text-tertiary font-semibold my-3'>More like this..</h4>
       <div className='px-8  h-full w-full'>
       <Swiper
