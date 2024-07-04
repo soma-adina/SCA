@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 import { GrDownload } from "react-icons/gr";
@@ -9,16 +9,23 @@ import { GrDownload } from "react-icons/gr";
 export default function StickyNav() {
     const[stickNav, setStickNav]=useState(false)
 
-    const sticky=()=>{
+    useEffect(()=>{
+        const sticky=()=>{
 
 
-        if(window.scrollY >= 500){
-            setStickNav(true)
-        }else{
-            setStickNav(false)
+            if(window.scrollY >= 500){
+                setStickNav(true)
+            }else{
+                setStickNav(false)
+            }
         }
-    }
-    window.addEventListener("scroll", sticky)
+        window.addEventListener("scroll", sticky)
+    },[])
+
+  
+    
+
+    
 
     
   return (
