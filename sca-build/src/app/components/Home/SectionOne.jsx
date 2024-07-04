@@ -56,7 +56,7 @@ export default function SectionOne() {
 
             <div className='my-7'>
               <h2 className='text-2xl text-tertiary font-semibold'>
-                Strawde Valley
+                Strawdew Valley
               </h2>
             </div>
 
