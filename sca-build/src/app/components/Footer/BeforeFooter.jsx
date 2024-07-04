@@ -11,7 +11,7 @@ export default function beforeFooter() {
         <div className="container mx-auto flex flex-col items-center justify-between py-8 md:flex-row">
 
           <div className='w-full flex justify-center md:justify-start py-4 md:py-0 md:w-1/2'>
-            <Image src={logo} className='w-1/2 md:w-1/3'/>
+            <Image alt='' src={logo} className='w-1/2 md:w-1/3'/>
           </div>
 
 

@@ -21,7 +21,7 @@ export default function TopNav() {
     <div className='bg-primary lg:bg-white flex items-center justify-between border-b border-solid border-gray-300 relative'>
         <div className="flex items-center gap-3">
             <div className='py-3 px-2 bg-primary relative z-40'>
-                <Image
+                <Image alt=''
                 src={logo}
                 width={100}
                 />
@@ -42,7 +42,7 @@ export default function TopNav() {
                     </li>
                     <li>
                     <a href="#">
-                        <Image className='rounded' src={flag} width={28}/>
+                        <Image alt='' className='rounded' src={flag} width={28}/>
                     </a>
                 </li>
             </ul>
@@ -70,7 +70,7 @@ export default function TopNav() {
                 <SignUpSideBar/>
                 <li>
                     <a href="#">
-                        <Image className='rounded' src={flag} width={28}/>
+                        <Image alt='' className='rounded' src={flag} width={28}/>
                     </a>
                 </li>
             </ul>

@@ -39,7 +39,7 @@ export default function SignUpSideBar() {
             </div>
             <div className="w-full bg-white my-5 py-4 px-8 rounded-lg">
                 <div>
-                    <Image className="w-full"
+                    <Image alt='' className="w-full"
                     src={SideBanner}
                     />
                 </div>
@@ -73,7 +73,7 @@ export default function SignUpSideBar() {
             </div>
 
         {/* last section */}
-            <section className='bg-white -translate-x-full rounded-xl shadow-lg '>
+            <section className='bg-white  rounded-xl shadow-lg '>
                 <a href="#" className='p-3 text-tertiary w-full flex items-center justify-between border-b border-gray-300 hover:text-primary'>
                     <div className='flex items-center gap-2'>
                         <IoCloudCircle className='text-2xl text-primary'/>

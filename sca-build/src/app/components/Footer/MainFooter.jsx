@@ -144,7 +144,7 @@ export default function MainFooter() {
 
         <div className="container mx-auto py-10 flex justify-center md:justify-end">
           
-          <Image src={certify} width={100}/>
+          <Image alt='' src={certify} width={100}/>
         </div>
 
 
