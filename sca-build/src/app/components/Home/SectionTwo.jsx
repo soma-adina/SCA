@@ -13,7 +13,7 @@ export default function SectionTwo() {
     <section>
         <div className="lg:w-11/12 w-full relative bg-white mx-auto my-12 py-5 px-10 flex flex-wrap justify-between">
             <div className="md:w-3/6 w-full">
-                <h4 className="text-tertiary text-xl font-semibold py-2">You're moving to the valley...</h4>
+                <h4 className="text-tertiary text-xl font-semibold py-2">Youre moving to the valley...</h4>
                 <div>
                   <ReadMore >
                     
@@ -38,7 +38,7 @@ export default function SectionTwo() {
                 Software description provided by the publisher.
                 </p>
                 <button className="bg-primary py-3 px-4 my-4 rounded-lg hover:scale-x-105 transition duration-300 ease-out hover:bg-secondary">
-                <a href="#" className="text-white font-semibold">Explore this game's official website</a>
+                <a href="#" className="text-white font-semibold">Explore this games official website</a>
               </button>
             </div>
 
