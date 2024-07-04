@@ -30,10 +30,10 @@ export default function StickyNav() {
     
   return (
     <div className={stickNav ? " bg-gray-200 fixed top-0 shadow-xl left-0  z-50 w-full hidden lg:block" : "hidden"}>
-        <div className='w-full    flex items-center'>
+        <div className='w-full  flex items-center'>
 
         
-            <div className=' w-11/12 mx-auto flex items-center justify-between py-3'>
+            <div className='w-11/12 mx-auto flex items-center justify-between py-3'>
                 <div>
                     <h2 className='text-tertiary font-semibold text-xl'>Stardew Valley</h2>
                 </div>
@@ -48,7 +48,7 @@ export default function StickyNav() {
                     <div>
 
                     <button className='bg-primary px-6 py-2 rounded-full hover:scale-x-105 transition duration-300 ease-out hover:bg-secondary'>
-                        <a href="#" className='text-white text-md font-semibold flex items-center justify-center  gap-2'><GrDownload/> Direct Download</a>
+                        <a href="#" className="text-white text-md font-semibold flex items-center justify-center  gap-2"><GrDownload/> Direct Download</a>
                     </button>
                     </div>
                 </div>
