@@ -18,7 +18,7 @@ export default function ReadMore({children}) {
         {openText ? children : children.substr(0,500)}
       </p>
         
-        <button onClick={readBtn} className='flex items-center gap-1 text-primary font-semibold hover:text-secondary my-4'>
+        <button onClick={readBtn} className='flex items-center gap-1 text-primary font-semibold text-sm hover:text-secondary my-4'>
         {openText ?  <FaMinus/> : <FaPlus/>} {openText ?  'Read Less' : ' Read More'}
 
         </button>

@@ -4,13 +4,14 @@
 
 
 .sidebar{
-    animation: slide 400ms ease-in-out;
+    animation: slide alternate 400ms ease-in-out;
 }
 @keyframes slide {
-    from{
-        right: -100%;
+    from
+    {
+        transform: translateX(100%);
     }
-    to{right: 0;}
+    to{transform: translateX(0%);}
     
 }
 
