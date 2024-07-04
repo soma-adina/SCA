@@ -44,6 +44,7 @@ export default function () {
               <div className='w-[49%] flex my-2  items-center border-solid border border-gray-300 rounded-xl'>
                 <div className="w-2/6 ">
                   <Image
+                  alt=''
                   className='w-full'
                   src={MarioRed}
                   />
@@ -64,6 +65,7 @@ export default function () {
               <div className='w-[49%] flex my-2  items-center border-solid border border-gray-300 rounded-xl'>
                 <div className="w-2/6  bg-cover">
                   <Image
+                  alt=''
                   className='object-fill'
                   src={MarioBros}
                   />
@@ -85,6 +87,7 @@ export default function () {
               <div className='w-[49%] flex my-2  items-center border-solid border border-gray-300 rounded-xl'>
                 <div className="w-2/6 ">
                   <Image
+                  alt=''
                   className='object-fill'
                   src={MarioBros}
                   />
@@ -106,6 +109,7 @@ export default function () {
               <div className='w-[49%] flex my-2  items-center border-solid border border-gray-300 rounded-xl'>
                 <div className="w-2/6 ">
                   <Image
+                  alt=''
                   className='object-fill'
                   src={MarioBros}
                   />

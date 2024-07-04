@@ -13,7 +13,7 @@ export default function SectionTwo() {
     <section>
         <div className="lg:w-11/12 w-full relative bg-white mx-auto my-12 py-5 px-10 flex flex-wrap justify-between">
             <div className="md:w-3/6 w-full">
-                <h4 className='text-tertiary text-xl font-semibold py-2'>You're moving to the valley...</h4>
+                <h4 className="text-tertiary text-xl font-semibold py-2">You're moving to the valley...</h4>
                 <div>
                   <ReadMore >
                     
@@ -44,7 +44,7 @@ export default function SectionTwo() {
 
             <div className="md:w-3/6 w-full md:px-5 px-0">
                 <Image
-                alt=''
+                alt=""
                     className="w-full rounded-xl"
                     src={hero}/>
                     
