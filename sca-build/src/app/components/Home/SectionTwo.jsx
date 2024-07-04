@@ -37,8 +37,8 @@ export default function SectionTwo() {
                 <p className='text-xs'>
                 Software description provided by the publisher.
                 </p>
-                <button className='bg-primary py-3 px-4 my-4 rounded-lg hover:scale-x-105 transition duration-300 ease-out hover:bg-secondary'>
-                <a href="#" className='text-white font-semibold'>Explore this game's official website</a>
+                <button className="bg-primary py-3 px-4 my-4 rounded-lg hover:scale-x-105 transition duration-300 ease-out hover:bg-secondary">
+                <a href="#" className="text-white font-semibold">Explore this game's official website</a>
               </button>
             </div>
 

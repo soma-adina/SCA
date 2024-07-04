@@ -12,7 +12,7 @@ import { FaRegHeart } from "react-icons/fa";
 import MarioRed from '../logo/MarioRed1.png'
 import MarioBros from '../logo/mariobros.png'
 
-export default function () {
+export default function NavbarForm () {
     const [category, setCategory]=useState(false)
     const [searchOpen, setSearchOpen] =useState(false)
   return (
