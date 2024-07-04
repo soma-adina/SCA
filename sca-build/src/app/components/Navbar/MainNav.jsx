@@ -70,7 +70,7 @@ export default function MainNav() {
         
         // //////////////////////////////////////////
       ))}
-      <li>OK</li>
+      {/* <li>OK</li> */}
       </ul>
     
     </nav>
