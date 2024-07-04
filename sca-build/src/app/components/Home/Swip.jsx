@@ -43,7 +43,7 @@ export default function Swip() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image alt='' className='' src={hero}/>
+          <Image alt='' src={hero}/>
         </SwiperSlide>
         <SwiperSlide>
         <Image alt='' src={banner}/>

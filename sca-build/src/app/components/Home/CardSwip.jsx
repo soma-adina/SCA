@@ -33,10 +33,19 @@ export default function CardSwip() {
       <h4 className='text-3xl text-tertiary font-semibold my-3'>More like this..</h4>
       <div className='px-8  h-full w-full'>
       <Swiper
-        slidesPerView={3.7}
+        slidesPerView={2}
         spaceBetween={30}
         navigation={true}
-        
+        breakpoints={
+          {640: {
+          slidesPerView: 2.7
+          },
+          768: {
+            slidesPerView: 3.7
+            }
+        }
+          
+        }
         modules={[Pagination,Navigation]}
         className="mySwiper"
       >
